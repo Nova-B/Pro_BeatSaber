@@ -6,7 +6,7 @@ using UnityEngine;
 public class AudioPeer : MonoBehaviour
 {
     AudioSource audioSource;
-    public static float[] samples = new float[512];
+    public float[] samples = new float[512];
 
     public static float[] frequBand = new float[8];//주파수 진폭 대역대 8개
     // Start is called before the first frame update
